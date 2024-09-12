@@ -49,7 +49,7 @@
 </script>
 
 <section
-  class="font-['Cairo'] h-[55rem] flex items-center justify-center text-center bg-gradient-to-r from-[#232F3D] to-[#3D4957]"
+  class="font-['Cairo'] h-screen flex items-center justify-center text-center bg-gradient-to-r from-[#232F3D] to-[#3D4957]"
 >
   <article class="mx-4">
     <h1 class=" font-bold mb-4 text-white max-sm:text-7xl text-8xl py-4">
@@ -61,11 +61,12 @@
   </article>
 </section>
 
-<PrayerTable
-  {gregorianDate}
-  {hijri}
-  {hijriMonth}
-  {weekday}
-  {prayerTimes}
-  {nameCity}
-/>
+  <PrayerTable
+    {gregorianDate}
+    {hijri}
+    {hijriMonth}
+    {weekday}
+    {prayerTimes}
+    {nameCity}
+  />
+
