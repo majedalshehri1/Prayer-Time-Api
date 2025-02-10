@@ -1,47 +1,34 @@
-# Svelte + Vite
+# 🌟 Aladhan App 🌟
 
-This template should help get you started developing with Svelte in Vite.
+The Aladhan App is a modern web application designed to provide accurate prayer times based on your current location. It integrates two APIs: one for fetching prayer times and another for retrieving the user's current geolocation. This app simplifies the process of determining prayer schedules anywhere in the world, with user-friendly features and a sleek design.
 
-## Recommended IDE Setup
+---
 
-[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
+## Preview 🖼️
 
-## Need an official Svelte framework?
+![App Screenshot](https://i.postimg.cc/CKxbmm2H/Athan.png)
 
-Check out [SvelteKit](https://github.com/sveltejs/kit#readme), which is also powered by Vite. Deploy anywhere with its serverless-first approach and adapt to various platforms, with out of the box support for TypeScript, SCSS, and Less, and easily-added support for mdsvex, GraphQL, PostCSS, Tailwind CSS, and more.
+---
 
-## Technical considerations
+## Features 🚀
 
-**Why use this over SvelteKit?**
+- **Responsive Design:** Optimized for all screen sizes (mobile, tablet, and desktop).
+- **One-Click Location Detection:** Easily detect your location to automatically fetch accurate prayer times.
+- **Geolocation Integration:** Uses an API to determine your current location.
+- **Accurate Prayer Times:** Displays prayer schedules based on a reliable API.
+- **Fast and Lightweight:** Built using Svelte for quick performance and fast page loads.
+- **Deployed on Vercel:** Ensures high uptime and fast global access.
 
-- It brings its own routing solution which might not be preferable for some users.
-- It is first and foremost a framework that just happens to use Vite under the hood, not a Vite app.
+---
 
-This template contains as little as possible to get started with Vite + Svelte, while taking into account the developer experience with regards to HMR and intellisense. It demonstrates capabilities on par with the other `create-vite` templates and is a good starting point for beginners dipping their toes into a Vite + Svelte project.
+## Technologies Used 🛠️
 
-Should you later need the extended capabilities and extensibility provided by SvelteKit, the template has been structured similarly to SvelteKit so that it is easy to migrate.
+- Svelte
+- Tailwind CSS
+- Vercel
 
-**Why `global.d.ts` instead of `compilerOptions.types` inside `jsconfig.json` or `tsconfig.json`?**
+---
 
-Setting `compilerOptions.types` shuts out all other types not explicitly listed in the configuration. Using triple-slash references keeps the default TypeScript setting of accepting type information from the entire workspace, while also adding `svelte` and `vite/client` type information.
+## Visit the Website 🌍
 
-**Why include `.vscode/extensions.json`?**
-
-Other templates indirectly recommend extensions via the README, but this file allows VS Code to prompt the user to install the recommended extension upon opening the project.
-
-**Why enable `checkJs` in the JS template?**
-
-It is likely that most cases of changing variable types in runtime are likely to be accidental, rather than deliberate. This provides advanced typechecking out of the box. Should you like to take advantage of the dynamically-typed nature of JavaScript, it is trivial to change the configuration.
-
-**Why is HMR not preserving my local component state?**
-
-HMR state preservation comes with a number of gotchas! It has been disabled by default in both `svelte-hmr` and `@sveltejs/vite-plugin-svelte` due to its often surprising behavior. You can read the details [here](https://github.com/sveltejs/svelte-hmr/tree/master/packages/svelte-hmr#preservation-of-local-state).
-
-If you have state that's important to retain within a component, consider creating an external store which would not be replaced by HMR.
-
-```js
-// store.js
-// An extremely simple external store
-import { writable } from 'svelte/store'
-export default writable(0)
-```
+You can explore the live app here: [Aladhan App](https://prayer-time-api-pied.vercel.app/)
