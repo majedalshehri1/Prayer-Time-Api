@@ -1,4 +1,4 @@
-# 🌟 Aladhan App 🌟
+# Aladhan App 🕌
 
 The Aladhan App is a modern web application designed to provide accurate prayer times based on your current location. It integrates two APIs: one for fetching prayer times and another for retrieving the user's current geolocation. This app simplifies the process of determining prayer schedules anywhere in the world, with user-friendly features and a sleek design.
 
